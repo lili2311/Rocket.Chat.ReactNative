@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.25.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -24,6 +24,18 @@ patch:
         patched: '2017-09-29T23:29:20.238Z'
     - realm > extract-zip > debug:
         patched: '2017-09-29T23:29:20.238Z'
+    - '@storybook/react-native > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          @storybook/react-native > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > tar-pack > debug
+    - '@storybook/react-native > @storybook/core > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar-pack > debug':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          @storybook/react-native > @storybook/core > webpack > watchpack >
+          chokidar > fsevents > node-pre-gyp > tar-pack > debug
   'npm:lodash:20180130':
     - react-native > plist > xmlbuilder > lodash:
         patched: '2018-07-02T23:20:39.933Z'
@@ -44,3 +56,1260 @@ patch:
         patched: '2018-06-22T03:39:40.096Z'
     - realm > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
         patched: '2018-06-22T03:39:40.096Z'
+    - '@storybook/react-native > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @storybook/react-native > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > hawk > hoek
+    - '@storybook/react-native > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @storybook/react-native > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > hawk > boom > hoek
+    - '@storybook/react-native > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @storybook/react-native > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > hawk > sntp > hoek
+    - '@storybook/react-native > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @storybook/react-native > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > hawk > hoek
+    - '@storybook/react-native > @storybook/core > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @storybook/react-native > @storybook/core > webpack > watchpack >
+          chokidar > fsevents > node-pre-gyp > hawk > hoek
+    - '@storybook/react-native > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @storybook/react-native > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > hawk > cryptiles > boom > hoek
+    - '@storybook/react-native > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @storybook/react-native > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > hawk > boom > hoek
+    - '@storybook/react-native > @storybook/core > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @storybook/react-native > @storybook/core > webpack > watchpack >
+          chokidar > fsevents > node-pre-gyp > hawk > boom > hoek
+    - '@storybook/react-native > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @storybook/react-native > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > hawk > sntp > hoek
+    - '@storybook/react-native > @storybook/core > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @storybook/react-native > @storybook/core > webpack > watchpack >
+          chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek
+    - '@storybook/react-native > @storybook/core > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @storybook/react-native > @storybook/core > webpack > watchpack >
+          chokidar > fsevents > node-pre-gyp > request > hawk > hoek
+    - '@storybook/react-native > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @storybook/react-native > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > hawk > cryptiles > boom > hoek
+    - '@storybook/react-native > @storybook/core > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @storybook/react-native > @storybook/core > webpack > watchpack >
+          chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek
+    - '@storybook/react-native > @storybook/core > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @storybook/react-native > @storybook/core > webpack > watchpack >
+          chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek
+    - '@storybook/react-native > @storybook/core > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @storybook/react-native > @storybook/core > webpack > watchpack >
+          chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek
+    - '@storybook/react-native > @storybook/core > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          @storybook/react-native > @storybook/core > webpack > watchpack >
+          chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom
+          > hoek
+  'npm:extend:20180424':
+    - '@storybook/react-native > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          @storybook/react-native > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > extend
+    - '@storybook/react-native > @storybook/core > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          @storybook/react-native > @storybook/core > webpack > watchpack >
+          chokidar > fsevents > node-pre-gyp > request > extend
+  SNYK-JS-LODASH-567746:
+    - react-native-keyboard-input > lodash:
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-native-keyboard-input > lodash
+    - react-native-navigation > lodash:
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-native-navigation > lodash
+    - react-native-responsive-ui > lodash:
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-native-responsive-ui > lodash
+    - react-native-svg > lodash:
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-native-svg > lodash
+    - react-native-video-controls > lodash:
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-native-video-controls > lodash
+    - react-redux > lodash:
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-redux > lodash
+    - '@storybook/react-native > webpack > async > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/react-native > webpack > async > lodash'
+    - '@storybook/react-native > babel-plugin-transform-class-properties > babel-template > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-plugin-transform-class-properties >
+          babel-template > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-block-scoping > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-block-scoping > lodash
+    - '@storybook/react-native > react-dev-utils > inquirer > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/react-native > react-dev-utils > inquirer > lodash'
+    - '@storybook/react-native > @storybook/ui > react-treebeard > velocity-react > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > @storybook/ui > react-treebeard >
+          velocity-react > lodash
+    - '@storybook/react-native > @storybook/core > webpack > async > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/react-native > @storybook/core > webpack > async > lodash'
+    - '@storybook/react-native > babel-plugin-transform-class-properties > babel-template > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-plugin-transform-class-properties >
+          babel-template > babel-types > lodash
+    - '@storybook/react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-plugin-transform-class-properties >
+          babel-helper-function-name > babel-types > lodash
+    - '@storybook/react-native > babel-plugin-transform-regenerator > regenerator-transform > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-plugin-transform-regenerator >
+          regenerator-transform > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-block-scoping > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-duplicate-keys > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-duplicate-keys > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-function-name > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-function-name > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-parameters > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-shorthand-properties > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-shorthand-properties > babel-types >
+          lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-sticky-regex > babel-types > lodash
+    - '@storybook/react-native > babel-plugin-transform-class-properties > babel-template > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-plugin-transform-class-properties >
+          babel-template > babel-traverse > lodash
+    - '@storybook/react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-plugin-transform-class-properties >
+          babel-helper-function-name > babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-parameters > babel-traverse > lodash
+    - '@storybook/react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-plugin-transform-class-properties >
+          babel-helper-function-name > babel-template > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-template > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-block-scoping > babel-template > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-template > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-template > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-computed-properties > babel-template > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-computed-properties > babel-template >
+          lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-commonjs > babel-template >
+          lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-amd > babel-template > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-amd > babel-template > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-systemjs > babel-template > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-systemjs > babel-template >
+          lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-template > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-umd > babel-template > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-template > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-parameters > babel-template > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-define-map >
+          lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-sticky-regex > babel-helper-regex >
+          lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-unicode-regex > babel-helper-regex > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-unicode-regex > babel-helper-regex >
+          lodash
+    - '@storybook/react-native > @storybook/core > @storybook/ui > react-treebeard > velocity-react > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > @storybook/core > @storybook/ui >
+          react-treebeard > velocity-react > lodash
+    - '@storybook/react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-plugin-transform-class-properties >
+          babel-helper-function-name > babel-helper-get-function-arity >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-helper-get-function-arity > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-parameters >
+          babel-helper-get-function-arity > babel-types > lodash
+    - '@storybook/react-native > babel-plugin-transform-class-properties > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-plugin-transform-class-properties >
+          babel-template > babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-plugin-transform-class-properties >
+          babel-helper-function-name > babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-block-scoping > babel-traverse >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-traverse > babel-types >
+          lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-parameters > babel-traverse >
+          babel-types > lodash
+    - '@storybook/react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-plugin-transform-class-properties >
+          babel-helper-function-name > babel-template > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-template > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-block-scoping > babel-template >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-template > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-template > babel-types >
+          lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-computed-properties > babel-template > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-computed-properties > babel-template >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-commonjs > babel-template >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-amd > babel-template > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-amd > babel-template >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-systemjs > babel-template >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-template > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-umd > babel-template >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-template > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-parameters > babel-template >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-function-name >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-function-name >
+          babel-helper-function-name > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-regenerator > regenerator-transform > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-regenerator > regenerator-transform >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-async-to-generator >
+          babel-helper-remap-async-to-generator > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-define-map >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-optimise-call-expression > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes >
+          babel-helper-optimise-call-expression > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-replace-supers >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-object-super >
+          babel-helper-replace-supers > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-commonjs >
+          babel-plugin-transform-strict-mode > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-amd >
+          babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-systemjs > babel-helper-hoist-variables > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-systemjs >
+          babel-helper-hoist-variables > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-parameters > babel-helper-call-delegate
+          > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-sticky-regex > babel-helper-regex >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-unicode-regex > babel-helper-regex > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-unicode-regex > babel-helper-regex >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-exponentiation-operator >
+          babel-helper-builder-binary-assignment-operator-visitor > babel-types
+          > lodash
+    - '@storybook/react-native > babel-preset-react > babel-plugin-transform-react-jsx > babel-helper-builder-react-jsx > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-react >
+          babel-plugin-transform-react-jsx > babel-helper-builder-react-jsx >
+          babel-types > lodash
+    - '@storybook/react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-plugin-transform-class-properties >
+          babel-helper-function-name > babel-template > babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-block-scoping > babel-template >
+          babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-template >
+          babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-computed-properties > babel-template >
+          babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-commonjs > babel-template >
+          babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-amd > babel-template >
+          babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-systemjs > babel-template >
+          babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-template > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-umd > babel-template >
+          babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-parameters > babel-template >
+          babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-function-name >
+          babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-function-name >
+          babel-helper-function-name > babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-async-to-generator >
+          babel-helper-remap-async-to-generator > babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-replace-supers >
+          babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-object-super >
+          babel-helper-replace-supers > babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-parameters > babel-helper-call-delegate
+          > babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-function-name >
+          babel-template > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-function-name >
+          babel-helper-function-name > babel-template > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-async-to-generator >
+          babel-helper-remap-async-to-generator > babel-template > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-replace-supers >
+          babel-template > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-object-super >
+          babel-helper-replace-supers > babel-template > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-amd >
+          babel-plugin-transform-es2015-modules-commonjs > babel-template >
+          lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-umd >
+          babel-plugin-transform-es2015-modules-amd > babel-template > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-function-name >
+          babel-helper-get-function-arity > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-function-name >
+          babel-helper-function-name > babel-helper-get-function-arity >
+          babel-types > lodash
+    - '@storybook/react-native > babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-plugin-transform-class-properties >
+          babel-helper-function-name > babel-template > babel-traverse >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-block-scoping > babel-template >
+          babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-template >
+          babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-computed-properties > babel-template >
+          babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-commonjs > babel-template >
+          babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-amd > babel-template >
+          babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-systemjs > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-systemjs > babel-template >
+          babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-umd > babel-template >
+          babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-parameters > babel-template >
+          babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-function-name >
+          babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-function-name >
+          babel-helper-function-name > babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-async-to-generator >
+          babel-helper-remap-async-to-generator > babel-traverse > babel-types >
+          lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-replace-supers >
+          babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-object-super >
+          babel-helper-replace-supers > babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-parameters > babel-helper-call-delegate
+          > babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-function-name >
+          babel-template > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-function-name >
+          babel-helper-function-name > babel-template > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-async-to-generator >
+          babel-helper-remap-async-to-generator > babel-template > babel-types >
+          lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-replace-supers >
+          babel-template > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-object-super >
+          babel-helper-replace-supers > babel-template > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-amd >
+          babel-plugin-transform-es2015-modules-commonjs > babel-template >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-umd >
+          babel-plugin-transform-es2015-modules-amd > babel-template >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-async-to-generator >
+          babel-helper-remap-async-to-generator > babel-helper-function-name >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-define-map >
+          babel-helper-function-name > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-replace-supers >
+          babel-helper-optimise-call-expression > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-object-super >
+          babel-helper-replace-supers > babel-helper-optimise-call-expression >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-amd >
+          babel-plugin-transform-es2015-modules-commonjs >
+          babel-plugin-transform-strict-mode > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-umd >
+          babel-plugin-transform-es2015-modules-amd >
+          babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-helper-hoist-variables > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-parameters > babel-helper-call-delegate
+          > babel-helper-hoist-variables > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-exponentiation-operator >
+          babel-helper-builder-binary-assignment-operator-visitor >
+          babel-helper-explode-assignable-expression > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-function-name >
+          babel-template > babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-function-name >
+          babel-helper-function-name > babel-template > babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-async-to-generator >
+          babel-helper-remap-async-to-generator > babel-template >
+          babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-replace-supers >
+          babel-template > babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-object-super >
+          babel-helper-replace-supers > babel-template > babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-amd >
+          babel-plugin-transform-es2015-modules-commonjs > babel-template >
+          babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-umd >
+          babel-plugin-transform-es2015-modules-amd > babel-template >
+          babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-async-to-generator >
+          babel-helper-remap-async-to-generator > babel-helper-function-name >
+          babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-define-map >
+          babel-helper-function-name > babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-exponentiation-operator >
+          babel-helper-builder-binary-assignment-operator-visitor >
+          babel-helper-explode-assignable-expression > babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-async-to-generator >
+          babel-helper-remap-async-to-generator > babel-helper-function-name >
+          babel-template > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-define-map >
+          babel-helper-function-name > babel-template > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-umd >
+          babel-plugin-transform-es2015-modules-amd >
+          babel-plugin-transform-es2015-modules-commonjs > babel-template >
+          lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-async-to-generator >
+          babel-helper-remap-async-to-generator > babel-helper-function-name >
+          babel-helper-get-function-arity > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-define-map >
+          babel-helper-function-name > babel-helper-get-function-arity >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-function-name >
+          babel-template > babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-function-name >
+          babel-helper-function-name > babel-template > babel-traverse >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-async-to-generator >
+          babel-helper-remap-async-to-generator > babel-template >
+          babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-replace-supers >
+          babel-template > babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-object-super >
+          babel-helper-replace-supers > babel-template > babel-traverse >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-amd >
+          babel-plugin-transform-es2015-modules-commonjs > babel-template >
+          babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-umd >
+          babel-plugin-transform-es2015-modules-amd > babel-template >
+          babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-async-to-generator >
+          babel-helper-remap-async-to-generator > babel-helper-function-name >
+          babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-define-map >
+          babel-helper-function-name > babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-exponentiation-operator > babel-helper-builder-binary-assignment-operator-visitor > babel-helper-explode-assignable-expression > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-exponentiation-operator >
+          babel-helper-builder-binary-assignment-operator-visitor >
+          babel-helper-explode-assignable-expression > babel-traverse >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-async-to-generator >
+          babel-helper-remap-async-to-generator > babel-helper-function-name >
+          babel-template > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-define-map >
+          babel-helper-function-name > babel-template > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-umd >
+          babel-plugin-transform-es2015-modules-amd >
+          babel-plugin-transform-es2015-modules-commonjs > babel-template >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-umd >
+          babel-plugin-transform-es2015-modules-amd >
+          babel-plugin-transform-es2015-modules-commonjs >
+          babel-plugin-transform-strict-mode > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-async-to-generator >
+          babel-helper-remap-async-to-generator > babel-helper-function-name >
+          babel-template > babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-define-map >
+          babel-helper-function-name > babel-template > babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-umd >
+          babel-plugin-transform-es2015-modules-amd >
+          babel-plugin-transform-es2015-modules-commonjs > babel-template >
+          babel-traverse > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-async-to-generator >
+          babel-helper-remap-async-to-generator > babel-helper-function-name >
+          babel-template > babel-traverse > babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-classes > babel-helper-define-map >
+          babel-helper-function-name > babel-template > babel-traverse >
+          babel-types > lodash
+    - '@storybook/react-native > babel-preset-env > babel-plugin-transform-es2015-modules-umd > babel-plugin-transform-es2015-modules-amd > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react-native > babel-preset-env >
+          babel-plugin-transform-es2015-modules-umd >
+          babel-plugin-transform-es2015-modules-amd >
+          babel-plugin-transform-es2015-modules-commonjs > babel-template >
+          babel-traverse > babel-types > lodash
+  'npm:stringstream:20180511':
+    - '@storybook/react-native > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          @storybook/react-native > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > stringstream
+    - '@storybook/react-native > @storybook/core > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          @storybook/react-native > @storybook/core > webpack > watchpack >
+          chokidar > fsevents > node-pre-gyp > request > stringstream
+  'npm:tough-cookie:20170905':
+    - '@storybook/react-native > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          @storybook/react-native > webpack > watchpack > chokidar > fsevents >
+          node-pre-gyp > request > tough-cookie
+    - '@storybook/react-native > @storybook/core > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie':
+        patched: '2026-02-09T15:52:59.694Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          @storybook/react-native > @storybook/core > webpack > watchpack >
+          chokidar > fsevents > node-pre-gyp > request > tough-cookie
